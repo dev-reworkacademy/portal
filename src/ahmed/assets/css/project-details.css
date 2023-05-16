@@ -1,0 +1,216 @@
+.project-details-ah {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.project-grid-header-ah h1 {
+  color: #000000;
+  text-transform: capitalize;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#clip-resources-ah {
+  width: 16px;
+  height: 16px;
+  color: #00afef;
+  margin-right: 5px;
+  background-color: inherit;
+}
+
+#btn-resources-ah {
+  color: #00afef;
+  text-transform: capitalize;
+  border: 2px solid #00afef;
+  text-align: center;
+}
+
+#btn-resources-ah:hover #clip-resources-ah,
+#btn-resources-ah:hover {
+  color: #ffffff;
+  background-color: #00afef;
+}
+
+#view-project-tasks-ah {
+  background-color: white;
+  color: #00afef;
+  border: none;
+  outline: none;
+}
+
+.project-accordion-header-ah {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.project-accordion-header-ah h4 {
+  text-transform: capitalize;
+  color: #000000;
+  font-size: 17px;
+  font-weight: 550;
+}
+
+.project-accordion-header-ah span {
+  display: flex;
+  align-items: baseline;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000;
+}
+
+.project-accordion-header-ah span h6 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #00afef;
+  text-transform: capitalize;
+  margin-right: 10px;
+}
+
+.project-accordion-body-ah h4 {
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 18px;
+}
+
+.project-accordion-body-ah section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task_card {
+  border: 1px solid silver;
+  border-radius: 5px;
+}
+
+.task_remarks {
+  flex-wrap: wrap;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.project-accordion-body-ah span {
+  background-color: #bbbbbb;
+  color: white;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  margin-right: 5px;
+}
+
+.project-accordion-body-ah section h3 {
+  text-transform: capitalize;
+  color: #000000;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.project-accordion-body-ah section p {
+  text-transform: capitalize;
+  color: #bbbbbb;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+#project-review-ah {
+  color: #000000;
+  text-transform: capitalize;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+#trainer-ah {
+  font-size: 12px;
+  color: #00afef;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-top: auto;
+}
+
+.submit-card-header-ah h1 {
+  color: #000000;
+  text-transform: capitalize;
+  font-size: 28px;
+}
+
+#submit-count-ah {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.submit-card-body-ah p {
+  color: #000000;
+  font-size: 12px;
+}
+
+.phase-upload-ah {
+  text-align: center;
+  border: 1px dashed;
+  border-radius: 5px;
+}
+
+.phase-upload-ah h3 {
+  color: #000000;
+  font-size: 18px;
+}
+
+.phase-upload-ah label {
+  text-transform: initial;
+  cursor: pointer;
+}
+
+.phaseUpload {
+  display: none;
+}
+
+#submitPhaseBtn {
+  text-transform: capitalize;
+  padding: 5px 20px;
+}
+
+.phase-submission-files-ah {
+  border: 1px dashed;
+  border-radius: 5px;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.phase-submission-files-ah h5 {
+  color: #000000;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+
+@media (max-width: 425px) {
+  .wrap-task-ah {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .project-accordion-body-ah span {
+    height: 15px;
+    width: 15px;
+  }
+
+  .project-accordion-body-ah span .task-icons-ah {
+    display: none;
+  }
+
+  .project-accordion-body-ah section h3 {
+    font-size: 12px;
+  }
+
+  .project-accordion-body-ah section p {
+    font-size: 12px;
+    line-height: 25px;
+  }
+}

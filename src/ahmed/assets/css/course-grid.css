@@ -1,0 +1,165 @@
+.flex {
+    display: flex;
+}
+
+.card-img-ah {
+    width: 100%;
+    height: 180px;
+}
+
+.card-img-ah img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card-content-ah h3 {
+    width: 100%;
+    height: max-content;
+    line-height: 28.13px;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0.3px;
+    font-weight: 700;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-transform: capitalize;
+}
+
+.card-content-ah {
+    margin: 8px 15px 9px 14px;
+}
+
+.card-sub-ah {
+    width: 100%;
+    height: 30px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+
+.card-content-ah div p {
+    margin-left: 8px;
+}
+
+.card-img-ah span {
+    width: 93px;
+    height: 20px;
+    border-radius: 4px;
+    top: 8px;
+    left: 8px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    background: rgba(0, 0, 0, 0.29);
+}
+
+.card-content-ah span h6 {
+    color: #00AFEF;
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: 600;
+    line-height: 14.06px;
+    letter-spacing: 0.4px;
+    margin-top: 5px;
+    width: 90px;
+}
+
+.card-content-ah span {
+    height: 28px;
+}
+
+.course-scroll-ah {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    display: flex;
+}
+
+/* width */
+.course-scroll-ah::-webkit-scrollbar {
+    width: 15px;
+    height: 10px;
+    border-radius: 10px;
+}
+
+/* Track */
+.course-scroll-ah::-webkit-scrollbar-track {
+    background: white;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: 1px solid silver;
+}
+
+/* Handle */
+.course-scroll-ah::-webkit-scrollbar-thumb {
+    background: #B3D6F3;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+/* Handle on hover */
+.course-scroll-ah::-webkit-scrollbar-thumb:hover {
+    background: #174971;
+}
+
+.course-completed-ah {
+    margin-top: 50px;
+    margin-left: auto;
+}
+
+.course-completed-ah h4 {
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 0.3px;
+    font-size: 14px;
+    color: #A1A1A1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+
+
+.course-completed-ah h4::after {
+    content: "";
+    width: 35%;
+    right: 2%;
+    border: 1px solid #A1A1A1;
+    position: absolute;
+}
+
+.course-completed-ah h4::before {
+    content: "";
+    width: 35%;
+    left: 2%;
+    border: 1px solid #A1A1A1;
+    position: absolute;
+}
+
+.link-ah {
+    color: initial;
+}
+
+.link-ah:hover {
+    color: initial;
+}
+
+@media (max-width:425px) {
+
+    .course-completed-ah h4::before,
+    .course-completed-ah h4::after {
+        width: 25%;
+    }
+}

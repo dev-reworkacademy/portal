@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+}
+
+.main_phase_container_ah,
+.main_phase_break_container_ah {
+    border-radius: 8px;
+    border: 2px solid whitesmoke;
+    color: black;
+    text-transform: capitalize;
+    height: 85vh;
+}
+
+.main_phase_break_container_ah {
+    overflow-y: auto;
+}
+
+.main_phase_container_scroll_ah {
+    height: 60vh;
+    overflow-y: auto;
+}
+
+.main_phase_container_ah h5 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 3%;
+    text-align: center;
+}
+
+.input_phase_ah label {
+    color: #9FA2B4;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.input_phase_ah span {
+    align-items: center;
+    gap: 5px;
+
+}
+
+.input_phase_ah span #plus_ah {
+    width: 10%;
+    height: max-content;
+    cursor: pointer;
+}
+
+.input_phase_ah span input {
+    width: 90%;
+    padding: 3px 10px;
+    border-radius: 8px;
+    border: 1px solid #F0F1F7;
+    background-color: #FCFDFE;
+    outline: none;
+}
+
+.input_phase_ah input::placeholder {
+    text-transform: capitalize;
+    color: #4B506D;
+    opacity: 0.4;
+}
+
+.single_phase_ae {
+    border: 1px solid #4B506D;
+    border-radius: 8px;
+}
+
+.single_phase_header_ae {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.single_phase_header1_ae {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    cursor: pointer;
+    line-height: 15px;
+}
+
+.single_phase_ae:hover {
+    background-color: whitesmoke;
+}
+
+.single_phase_ae p {
+    width: 80%;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    margin: auto;
+}
+
+.single_phase_ae span {
+    width: 15%;
+    justify-content: space-evenly;
+}
+
+/* width */
+.main_phase_container_scroll_ah::-webkit-scrollbar,
+.main_phase_break_container_ah::-webkit-scrollbar {
+    width: 8px;
+    margin-left: 10px;
+    padding-left: 10px;
+
+}
+
+/* Track */
+.main_phase_container_scroll_ah::-webkit-scrollbar-track,
+.main_phase_break_container_ah::-webkit-scrollbar-track {
+    background: white;
+    border-radius: 10px;
+    border: 1px solid silver;
+}
+
+/* Handle */
+.main_phase_container_scroll_ah::-webkit-scrollbar-thumb,
+.main_phase_break_container_ah::-webkit-scrollbar-thumb {
+    background: #B3D6F3;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.main_phase_container_scroll_ah::-webkit-scrollbar-thumb:hover,
+.main_phase_break_container_ah::-webkit-scrollbar-thumb:hover {
+    background: #174971;
+}
+
+.phase_icon:hover {
+    color: red;
+}
+
+.main_phase_container_ah h4,
+.main_phase_break_container_ah h4 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+
+#view_phase_breakdown_ah {
+    background-color: white;
+    border: none;
+    outline: none;
+}
+
+#phase_border {
+    border: none;
+    border-bottom: 1px solid silver;
+    border-radius: 0px;
+}
+
+.phase_list_ah li {
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-bottom: 1px dashed silver;
+    margin-bottom: 10px;
+}
+
+.phase_break_header_ah {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.phase_break_header_ah h4 {
+    text-transform: capitalize;
+    color: #000000;
+    font-size: 17px;
+    font-weight: 650;
+}
+
+#update_btn_ah {
+    font-size: 13px;
+    color: #174971;
+    cursor: pointer;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 5px;
+}
+
+.update-section-ah {
+    display: flex;
+    justify-content: space-around;
+}
+
+.single_phase_header1_ae:hover {
+    background-color: white;
+    width: 100%;
+}
+
+.single_phase_header1_ae span {
+    width: max-content;
+}
+
+.mobile_btn_ah {
+    display: none;
+}
+
+#module_name_ah:hover {
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+#module_name_ah p {
+    font-weight: 600;
+}
+
+@media (max-width:425px) {
+    .no {
+        display: none;
+    }
+
+    .yes {
+        display: block;
+    }
+
+    .mobile_btn_ah {
+        display: block;
+        display: flex;
+        justify-content: right;
+    }
+
+    .mobile_btn_ah button {
+        border: none;
+        outline: none;
+        text-transform: capitalize;
+        color: #174971;
+        font-weight: 650;
+        background: white;
+        font-size: 14px;
+    }
+}

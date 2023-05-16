@@ -1,0 +1,224 @@
+/* @font-face {
+  font-family: "Lucida";
+  src: local("Lucida"),
+    url(../fonts/Lucida\Calligraphy\Font.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "unicode";
+  src: local("unicode"), url(../fonts/unicode.arialr.ttf) format("truetype");
+} */
+
+._sam_certificate_container {
+  margin-top: 60px !important;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+}
+.sign-des {
+  width: 50px;
+  height: 20px;
+}
+
+/* DATA ANALYSIS */
+._sam-data-analysis-background {
+  width: 100%;
+  height: 357px;
+  background-image: url(../images/cert1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+._sam-fullstack-background {
+  width: 100%;
+  height: 357px;
+  background-image: url(../images/cert4.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+._sam-frontend-background {
+  width: 100%;
+  height: 357px;
+  background-image: url(../images/cert3.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+._sam-certificate-header {
+  justify-content: center;
+  margin: auto;
+  height: 40px;
+}
+._sam-rwk-logo {
+  height: 20px;
+}
+._sam-rwk-logo > img {
+  width: 30px;
+  height: 30px;
+}
+._sam-certificate-holder {
+  margin-top: -7px !important;
+}
+._text-after {
+  font-size: 25px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+._border-bottom-sam {
+  width: 53%;
+  height: 10px;
+  margin: -20px auto;
+  border-bottom: 1px solid white;
+}
+._up-until {
+  margin-top: 30px;
+  font-size: 13px;
+}
+._up-until-completion {
+  font-size: 23px;
+  font-weight: bolder;
+}
+
+._student-info-certificate {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 9px;
+  font-weight: 800;
+}
+._student-info-certificate p {
+  margin-top: 20px;
+}
+._sam-signature {
+  width: 80%;
+  margin: 0 auto;
+}
+.sign_custom {
+  font-size: 13px;
+  font-weight: 400;
+}
+._pdf-certificate {
+  font-size: 10px;
+  text-transform: capitalize;
+  float: right;
+  border: none;
+  border-radius: 2px;
+  margin-right: 45px;
+  margin-top: 4px;
+  padding: 3px 10px 3px 10px;
+}
+
+@media screen and (max-width: 600px) {
+  ._sam_certificate_container {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    padding: 10px;
+  }
+  ._sam-data-analysis-background {
+    height: 300px;
+  }
+
+  ._sam-fullstack-background {
+    height: 300px;
+  }
+
+  ._sam-frontend-background {
+    height: 300px;
+  }
+
+  ._sam-certificate-holder {
+    margin-top: -8px !important;
+  }
+
+  ._student-info-certificate p {
+    margin-top: 0;
+    font-size: 8px;
+  }
+  ._sam_med {
+    margin-top: -5px !important;
+    font-size: 11px;
+  }
+  ._sam-rwk-logo {
+    margin-top: -11px;
+    height: 20px;
+  }
+  ._sam-rwk-logo > img {
+    width: 22px;
+    height: 22px;
+  }
+  ._sam_med-award {
+    margin-top: -13px;
+    font-size: 14px;
+  }
+
+  ._sam-signature {
+    width: 68%;
+
+    margin-top: -10px;
+    margin-bottom: 5px;
+  }
+  .sign_custom {
+    font-size: 11px;
+    font-weight: 400;
+  }
+  ._up-until {
+    margin-top: 20px;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  ._sam_certificate_container {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    padding: 10px;
+  }
+  ._sam-data-analysis-background {
+    height: 300px;
+  }
+
+  ._sam-fullstack-background {
+    height: 300px;
+  }
+
+  ._sam-frontend-background {
+    height: 300px;
+  }
+
+  ._sam-certificate-holder {
+    margin-top: -8px !important;
+  }
+
+  ._student-info-certificate p {
+    margin-top: 0;
+    font-size: 8px;
+  }
+  ._sam_med {
+    margin-top: -5px !important;
+    font-size: 11px;
+  }
+  ._sam-rwk-logo {
+    margin-top: -11px;
+    height: 20px;
+  }
+  ._sam-rwk-logo > img {
+    width: 22px;
+    height: 22px;
+  }
+  ._sam_med-award {
+    margin-top: -13px;
+    font-size: 14px;
+  }
+  ._pdf-certificate {
+    font-size: 10px;
+    text-transform: capitalize;
+    float: right;
+    border: none;
+    border-radius: 2px;
+    margin-right: 35px;
+    margin-top: 2px;
+  }
+}

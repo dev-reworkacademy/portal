@@ -1,0 +1,154 @@
+._sam_profile_image_holder {
+  background-color: black;
+  height: 250px;
+}
+._sam_user_image_holder {
+  background-color: gray;
+  height: 150px;
+  width: 150px;
+  border: 10px solid #555555;
+}
+
+._zindex{
+  left: 80px;
+}
+._sam-text-success{
+  text-align: end;
+}
+._sam_mt_100 {
+  margin-top: 100px !important;
+}
+._sam_profile_sub_text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.3px;
+  color: #8c8c8c;
+}
+._sam_grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  column-gap: 6px;
+  row-gap: 6px
+}
+._sam_profile_skills{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+letter-spacing: 0.3px;
+
+color: #3E3D3D;
+}
+._sma_profile_certificates{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 15px;
+letter-spacing: 0.2px;
+
+color: #6A6A6A;
+}
+
+._container-95{
+  width: 95%;
+}
+
+._sam-bio-text p{
+  font-size: 13px;
+  color: #9A9A9A;
+  font-weight: lighter;
+}
+._sam-bio-text h6{
+  color: #3F3F3F;
+  font-size: 15px;
+  font-weight: 600;
+}
+._text-bio-name{
+  color: #0C0907 !important;
+}
+._sam-skill-bio h6{
+  color: #777674;
+}
+._sam-underline{
+  border-bottom: 2px solid #62B2EE;
+}
+._sam-link-border{
+  border-bottom: 2px solid #62B2EE;
+}
+._sam-link-border-edit{
+  text-decoration: underline;
+}
+._sam-link-height{
+    height: 21px;
+}
+._object-fit{
+  object-fit: cover;
+  width: 100%;
+}
+.text-bg{
+  background-color: rgb(0 0 0 / 29%);
+  height: 98px;
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  top: 67px;
+  display: flex;
+  justify-content: center;
+  padding-top: 23px;
+}
+._sam_file{
+  display: none;
+}
+._sam-label{
+  cursor: pointer;
+}
+._sam-camera{
+  width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 16px;
+    top: 11px;
+    display: flex;
+    justify-content: center;
+}
+._sam-summary-text{
+  background-color: #FDFDFD !important;
+}
+
+._sam-outline-0:focus{
+  outline: none;
+  box-shadow:none !important;
+  border:1px solid #ccc !important;
+}
+
+
+@media screen and (max-width: 600px) {
+._sam-small-screen{
+  margin-top: 47px;
+  margin-left: 0 !important;
+}
+._sam_grid {
+  
+  grid-template-columns: auto auto auto
+
+}
+}
+
+@media screen and (max-width: 420px) {
+  ._sam-small-screen{
+    margin-top: 47px;
+    margin-left: 0 !important;
+  }
+  ._sam_grid {
+    
+    grid-template-columns: auto auto
+  
+  }
+  }

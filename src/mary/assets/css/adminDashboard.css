@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  font-family: 'Roboto';
+}
+.barSummary {
+  font-size: 12px;
+  text-align: center;
+}
+.ae_admin_category_con {
+  background-color: whitesmoke;
+  border-radius: 8px;
+  padding: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.ae_chart_category h4 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  color: black;
+  margin-bottom: 3px;
+}
+.ae_chart_category p {
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 7px;
+  color: black;
+}
+.ae_admin_chart_category {
+  font-size: 12px;
+}
+.ae_admin_chart_num {
+  width: 25%;
+  border-left: 0.8px dashed #6a6a6a;
+  padding-left: 5px;
+}
+.ae_admin_dash_chart_circle {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: red;
+}
+/* Small Card area */
+.ae_admin_small_card {
+  width: 98%;
+  margin: auto;
+}
+.ae_smallcard {
+  border: 1px solid rgba(4, 35, 49, 0.1);
+  border-radius: 15px;
+}
+.ae_card_icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+}
+.ae_card_title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.4px;
+}
+.ae_card_details {
+  font-size: 20px;
+}

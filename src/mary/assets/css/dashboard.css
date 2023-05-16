@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+}
+.ae_dashboard_course_logo {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 1px solid gray;
+padding: 5px;
+}
+.ae_dashboard_remain {
+  margin-top: 5px;
+  color: black;
+}
+.ae_dashboard_course_logo img {
+  width: 100%;
+  height: 100%;
+
+  border-radius: 50%;
+}
+.ae_dashboard_course_txt p {
+  font-size: 12px;
+}
+.ae_dashboard_course_txt span {
+  color: #00afef;
+  font-size: 12px;
+  font-weight: 900;
+}
+.ae_dashboard_course_txt h5 {
+  font-size: 16px;
+  color: black;
+  line-height: 2px;
+  padding-bottom: 5px;
+}
+.ae_deadline{color: black;font-weight: 900;}
+@media (max-width: 600px) {
+  .ae_dashboard_course_txt h5 {
+    font-size: 10px;
+  }
+}

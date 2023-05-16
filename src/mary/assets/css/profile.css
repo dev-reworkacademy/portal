@@ -1,0 +1,316 @@
+.ae_bg_color {
+  background-color: #e8e8e8;
+  padding-bottom: 130px;
+}
+
+.ae_body h1 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0.3px;
+}
+.ae_body p {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.3px;
+  color: #9fa2b4;
+}
+.ae_step_btn {
+  font-size: 16px;
+}
+
+.ae_step_container {
+  width: 100%;
+  margin: auto;
+  height: max-content;
+  margin-top: 40px;
+}
+.ae_stepForm {
+  width: 55%;
+  padding-bottom: 40px;
+}
+.ae_stepper {
+  height: inherit;
+  background-color: #f7f7f7;
+  border-radius: 0px 8px 8px 0px;
+  border: 1px solid #dfe0eb;
+  width: 45%;
+  border-width: 1px 1px 1px 0px;
+  border-style: solid;
+  border-color: #dfe0eb;
+}
+
+.ae_personalForm {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: #9fa2b4;
+}
+.ae_full_width {
+  width: 100%;
+}
+.ae_step_stage {
+  padding-right: 1px;
+}
+.ae_stepper_txt {
+  margin-top: 20px;
+}
+.ae_stepper_items {
+  padding-top: 160px;
+  padding-right: 0;
+  padding-left: 0;
+}
+.ae_stepper_confirm {
+  padding-top: 100px;
+  padding-right: 0;
+}
+.ae_stepper_items p,
+.ae_stepper_confirm p {
+  padding-top: 15px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: black;
+  margin-left: 15px;
+}
+.ae_stepper_circle {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  margin-left: 15px;
+}
+.ae_stepper_flex {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+.ae_stepper_line {
+  width: 70px;
+  height: 0px;
+  transform: rotate(90deg);
+  margin-top: 28px;
+  margin-left: -13px;
+}
+.ae_circle_active {
+  background-color: #00afef;
+}
+.ae_circle_inactive {
+  background-color: #bbbbbb;
+}
+.ae_stepper_line_active {
+  border: 0.5px solid #00afef;
+}
+.ae_stepper_line_inactive {
+  border: 0.5px solid #bbbbbb;
+}
+.ae_session_upload {
+  margin-top: 20px;
+  padding: 10px 0px;
+  border: 1px dashed black;
+  border-radius: 8px;
+}
+.ae_upload {
+  width: 8%;
+  margin: auto;
+}
+.ae_upload_name {
+  width: 40%;
+  margin: auto;
+}
+.ae_upload img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.ae_session_upload p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  /* font-size: 16px; */
+  line-height: 16px;
+  margin-top: 10px;
+  color: #030303;
+}
+.ae_payment_tabs {
+  cursor: pointer;
+}
+.ae_debit_font {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 22px;
+}
+.ae_debit_font_active {
+  border-bottom: 3px solid black;
+}
+.ae_debit_font_inactive {
+  color: #9fa2b4;
+}
+.ae_bank_desc {
+  color: #030303;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+}
+.ae_upload_photo_con {
+  background-color: #d9d9d9;
+  margin-bottom: 0px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ae_upload_photo {
+  background-color: #d9d9d9;
+  width: 195px;
+  height: 195px;
+  border-radius: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 8px solid #858796;
+}
+.ae_upload_photo_ {
+  background-color: #d9d9d9;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ae_upload_photo_ img {
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 100%;
+  object-fit: cover;
+}
+.user:hover {
+  cursor: pointer;
+}
+.ae_upload_msg {
+  padding-left: 10px;
+  font-size: 10px;
+}
+.ae_upload_msg p {
+  line-height: 1.5px;
+  color: #858796;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.ae_upload_msg_width {
+  width: 70%;
+  margin: auto;
+}
+.ae_paywith {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  color: black;
+  text-transform: capitalize;
+  padding: 30px 0px 20px;
+}
+.card-payment-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.card-payment-options span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 77px;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 0px 0px 2px 3px whitesmoke;
+}
+
+.card-payment-options img {
+  width: 90%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.ae_error_msg {
+  font-size: 8px;
+  text-align: center;
+  color: red;
+  font-style: italic;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.is-select-invalid {
+  border: 1px solid red;
+  border-radius: 8px;
+}
+
+.is-select-valid {
+  border: 1px solid green;
+  border-radius: 8px;
+}
+
+@media (max-width: 925px) {
+  .ae_stepper {
+    display: none;
+    width: 0%;
+  }
+  .ae_stepForm .card {
+    width: 80%;
+    margin: auto;
+  }
+  .ae_stepForm {
+    width: 70%;
+    padding-bottom: 40px;
+  }
+}
+@media (max-width: 700px) {
+  .ae_debit_font {
+    font-size: 14px;
+  }
+  .ae_stepForm .card {
+    min-width: 100%;
+  }
+  .ae_stepper {
+    width: 0%;
+  }
+  .ae_stepForm {
+    width: 95%;
+    padding-bottom: 40px;
+  }
+}
+/* @media (max-width: 960px) {
+  .ae_form_container {
+    width: 60%;
+  }
+  .ae_logIn_logo {
+    width: 40%;
+    margin: auto;
+  }
+}
+@media (max-width: 450px) {
+  .ae_form_container {
+    width: 100%;
+  }
+  .ae_form_container .form-description {
+    font-size: 12px;
+  }
+} */

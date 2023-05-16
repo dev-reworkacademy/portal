@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+}
+.ae_entry_title {
+  font-size: 16px;
+  font-weight: 900;
+}
+.ae_entry_main_title {
+  color: black;
+  font-family: roboto;
+}
+.ae_entry_main_title h1 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 22px;
+  letter-spacing: 0.4px;
+}
+.ae_entry_main_title p {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.4px;
+}
+
+.ae_entry_main .card-body {
+  font-size: 12px;
+  color: black;
+}
+.ae_entry_main .card-body p {
+  font-weight: 700;
+  color: black;
+  line-height: 10px;
+  font-size: 13px;
+}
+.ae_countdown {
+  color: black;
+  font-size: 18px;
+}
+.ae_font_weight {
+  font-weight: 900;
+}
+.ae_countdown_txt {
+  line-height: 1.5px;
+}
+.ae_countdown div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ae_countdown div h1 {
+  font-size: 40px;
+  font-weight: 900;
+}
+.ae_countdown div h4 {
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 1.5px;
+}
+.ae_countdown_upload {
+  width: 85%;
+  margin: auto;
+}
+.ae_countdown_btn {
+  width: 50%;
+  margin: auto;
+}
+.ae_entry_submit {
+  max-width: 60%;
+  margin: auto;
+}

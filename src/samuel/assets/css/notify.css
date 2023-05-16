@@ -1,0 +1,67 @@
+._sam_notify_card_w-100{
+    width: 100%;
+}
+._sam_notify_header{
+    font-family: Roboto;
+    font-style: SemiBold;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: Left;
+    vertical-align: Top;
+    letter-spacing: 0.2px;
+    fill: solid;
+    color: #252733;
+}
+
+._sam_notify_content{
+    font-family: Roboto;
+    font-style: SemiBold;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: Left;
+    vertical-align: Top;
+    letter-spacing: 0.2px;
+    color: #3d4050;
+}
+._sam_pb_relative{
+    bottom: 15px;
+}
+._sam_title_p{
+    font-family: Roboto;
+    font-style: SemiBold;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: Left;
+    vertical-align: Top;
+    letter-spacing: 0.2px;
+    fill: solid;
+    color: #252733;
+}
+._sam_notify_time_span{
+    font-family: Mulish;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+    text-align: right;
+    color: #9FA2B4;
+}
+
+._sam_status{
+    padding: 3px 5px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    background: rgba(41, 38, 38, 0.29);
+    /* background-color: #00AFEF; */
+    margin-right: 12px;
+    margin-top: -7px;
+}
+._sam_line-hight{
+    line-height: 1.8rem;
+    font-weight: 400;
+}

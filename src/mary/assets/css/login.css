@@ -1,0 +1,60 @@
+.ae_bg_color {
+  background-color: #e8e8e8;
+  padding-bottom: 130px;
+}
+
+.ae_form_container {
+  width: 30%;
+  margin: auto;
+  height: max-content;
+  margin-top: 50px;
+}
+.ae_logIn_logo {
+  width: 20%;
+  margin: auto;
+}
+.ae_logIn_logo img {
+  width: 100%;
+}
+.ae_error_msg {
+  text-align: center;
+  color: red;
+  font-size: 13px;
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+@media (max-width: 1440px) {
+  .ae_form_container {
+    width: 40%;
+  }
+
+}
+
+@media (max-width: 960px) {
+  .ae_form_container {
+    width: 50%;
+  }
+  .ae_logIn_logo {
+    width: 40%;
+    margin: auto;
+  }
+}
+@media (max-width: 850px) {
+  .ae_form_container {
+    width: 70%;
+  }
+  .ae_form_container .form-description {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 500px) {
+  .ae_form_container {
+    width: 100%;
+  }
+  .ae_form_container .form-description {
+    font-size: 12px;
+  }
+}

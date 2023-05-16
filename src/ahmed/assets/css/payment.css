@@ -1,0 +1,156 @@
+.flex-even {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#table-sn-ah {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background: #353535;
+    text-align: center;
+    padding: 3px 3px;
+    margin: 0px;
+    color: white;
+}
+
+#table-amount-ah {
+    font-weight: 600;
+    color: #000000;
+}
+
+#table-date-ah {
+    font-weight: 700;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+#table-approve-ah {
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#table-receipt-ah {
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    color: #1E78FF;
+    margin: 0px;
+}
+
+#table-receipt-ah:hover {
+    text-decoration: underline;
+}
+
+.tab-change-ah {
+    text-transform: capitalize;
+}
+
+.tab-change-ah h3 {
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.active-tab {
+    color: black;
+    border-bottom: 3px solid black;
+    font-weight: 900;
+}
+
+.inactive-tab {
+    color: rgba(3, 3, 3, 0.3);
+}
+
+.input-ah {
+    outline: none;
+    border: 1px solid #F0F1F7;
+    width: 90%;
+    padding: 10px 15px;
+    background-color: #FCFDFE;
+    border-radius: 8px;
+}
+
+.input-ah::placeholder {
+    color: #4B506D;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+}
+
+.input-cvv-ah {
+    outline: none;
+    border: 1px solid #F0F1F7;
+    width: 40%;
+    padding: 10px 15px;
+    background-color: #FCFDFE;
+    border-radius: 8px;
+}
+
+.input-select1-ah {
+    outline: none;
+    border: 1px solid #F0F1F7;
+    width: 30%;
+    background-color: #FCFDFE;
+    border-radius: 8px;
+}
+
+.input-select-toggle-ah,
+.input-select-toggle-ah:hover,
+.input-select-toggle-ah:active {
+    border: none;
+    background-color: #FCFDFE;
+    width: 100%;
+    height: 100%;
+    color: #353535;
+    text-transform: capitalize;
+    box-shadow: none;
+}
+
+.input-select2-ah {
+    outline: none;
+    border: 1px solid #F0F1F7;
+    background-color: #FCFDFE;
+    border-radius: 8px;
+    width: 40%;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    /* -webkit-appearance: none; */
+    margin: 0;
+    caret-color: steelblue;
+}
+
+.card-payment-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+.card-payment-options span {
+    width: 300px;
+    height: 77px;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0px 0px 2px 3px whitesmoke;
+}
+
+.card-payment-options img {
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.paywith-ah {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    color: black;
+    text-transform: capitalize;
+}

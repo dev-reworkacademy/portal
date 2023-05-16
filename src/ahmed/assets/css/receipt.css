@@ -1,0 +1,222 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.receipt {
+  padding: 10px;
+  background-color: white;
+}
+
+.receipt-container {
+  width: 794px;
+  margin: 45px auto 20px auto;
+  overflow-x: auto;
+  color: initial;
+}
+
+.receipt-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.receipt-header1 img,
+.receipt-header1 span {
+  display: block;
+}
+
+.receipt-header1 img {
+  width: 260px;
+}
+
+.reciept-header-address p {
+  font-weight: 900;
+  text-align: right;
+  font-size: 13px;
+  margin-bottom: 3px;
+}
+
+.reciept-header-address-txt {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.reciept-header-address-sub {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reciept-header-address-sub p:nth-child(2) {
+  margin-left: 10px;
+}
+
+.reciept-header-address-sub p span:nth-child(1) {
+  color: #df0c0c;
+}
+
+.reciept-header-address-no {
+  margin-right: 100px;
+}
+
+.reciept-header-address-no p {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.receipt-btn {
+  text-align: center;
+  margin-top: -10px;
+}
+
+.receipt-btn button {
+  padding: 2px 50px;
+  border: none;
+  background-color: #00AFEF;
+  color: #ffffff;
+  font-size: 25px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+}
+
+.btn-outline button {
+  background-color: white !important;
+  border: 2px solid #00AFEF;
+  color: #00AFEF;
+}
+
+.reciept-forms-date {
+  width: 30%;
+  margin-left: auto;
+}
+
+.receipt-form {
+  margin-top: 10px;
+}
+
+.reciept-forms {
+  display: Flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.reciept-forms p {
+  font-weight: 600;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.reciept-forms-dash {
+  font-size: 20px;
+  padding-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.reciept-forms-dash,
+.reciept-forms-payment-dash-sub {
+  border-bottom: 2px solid #000000;
+  width: 100%;
+  text-transform: capitalize;
+}
+
+.reciept-forms-payment-txt p {
+  margin-left: 5px;
+}
+
+.reciept-forms-payment,
+.reciept-forms-payment-container {
+  margin-bottom: 10px;
+}
+
+.reciept-forms-sub {
+  display: flex;
+  gap: 100px;
+  align-items: flex-end;
+}
+
+.reciept-amount {
+  width: 50%;
+}
+
+.receipt-amount-sub {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 3px solid #000000;
+  padding: 2px 10px;
+}
+
+.reciept-forms-sub-sign {
+  width: 25%;
+}
+
+.reciept-forms-sub p {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.receipt-amount-sub span {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.reciept-amount-sub-txt {
+  text-align: center;
+}
+
+.reciept-amount-kobo {
+  margin-right: 25px;
+}
+
+.reciept-signature {
+  width: 100%;
+}
+
+.reciept-signature img {
+  width: 100%;
+  max-width: 120px;
+}
+
+.receipt-download-btn {
+  text-align: center;
+}
+
+.receipt-download-btn button {
+  margin-top: 50px;
+  padding: 15px 45px;
+  font-size: 14px;
+  background-color: #00AFEF;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-center img {
+  width: 80px;
+}
+
+.text-center p {
+  padding: 0;
+  margin: 0;
+  font-size: smaller;
+}
+
+.reciept-forms-sum {
+  display: flex;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.reciept-forms-sum p {
+  font-size: 20px;
+  padding-left: 10px;
+  border-bottom: 2px solid #000000;
+  width: 100%;
+}
